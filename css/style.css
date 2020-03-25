@@ -27,6 +27,8 @@ body {
   font-weight: 400;
   color: var(--color-98);
   background-color: var(--color-white);
+  width: 900px;
+  margin: 0 auto;
 }
 
 .container {
@@ -73,7 +75,9 @@ h2 {
 }
 
 /* main section */
-
+.section-main {
+  list-style: none;
+}
 .name-info-section {
   margin-bottom: 30px;
   font-family: 'Ubuntu', sans-serif;
