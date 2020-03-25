@@ -1,0 +1,124 @@
+/* select Playfair Display accessable */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300&display=swap');
+
+/* default settings for page  */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* some specific setting */
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: rgb(98, 98, 98);
+  background-color: #fff;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+h2 + p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* style for main menu */
+
+.menu-nav {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.menu-nav-a {
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  color: rgb(98, 98, 98);
+}
+
+.menu-nav-li {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.menu-nav-li:last-child {
+  margin-right: 0;
+}
+
+.menu-nav-a:hover,
+.menu-nav-a:focus {
+  color: rgb(3, 169, 244);
+}
+
+/* main section */
+
+.name-info-section {
+  margin-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+}
+
+.info-section {
+  width: 420px;
+  display: inline-block;
+  margin-right: 56px;
+  margin-bottom: 135px;
+  vertical-align: top;
+}
+
+.info-section:nth-child(even) {
+  margin-right: 0;
+}
+
+.info-section:nth-child(n + 5) {
+  margin-bottom: 60px;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* button style  */
+
+.footer_-section {
+  margin: 0 auto;
+}
+
+.more-button {
+  display: block;
+  width: 162px;
+  height: 58px;
+  border: 1px solid rgb(98, 98, 98);
+  background-color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
+  margin: 0 auto 70px;
+}
+
+.more-button:hover,
+.more-button:focus {
+  background-color: rgb(98, 98, 98);
+  color: #fff;
+}
