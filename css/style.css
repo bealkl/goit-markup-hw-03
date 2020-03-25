@@ -1,4 +1,4 @@
-/* select Playfair Display accessable */
+/* select fonts Ubuntu and Playfair Display accessable */
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300&display=swap');
 
@@ -42,6 +42,7 @@ h2 {
 }
 
 .info-section-text {
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 24px;
 }
