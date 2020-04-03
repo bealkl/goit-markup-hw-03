@@ -21,14 +21,21 @@ html {
 }
 
 /* some specific setting */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
 
 body {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   color: var(--color-98);
   background-color: var(--color-white);
-  width: 900px;
-  margin: 0 auto;
+}
+
+header {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h2 {
@@ -47,6 +54,7 @@ h2 {
 .menu-nav {
   text-align: center;
   margin-bottom: 100px;
+  font-size: 0px;
 }
 
 .menu-nav-a {
@@ -54,6 +62,8 @@ h2 {
   text-decoration: none;
   line-height: 24px;
   color: var(--color-98);
+  font-size: 14px;
+  display: block;
 }
 
 .menu-nav-li {
@@ -73,11 +83,14 @@ h2 {
 /* main section */
 .section-main {
   list-style: none;
+  font-size: 0px;
+  padding-bottom: 0;
 }
 .name-info-section {
   margin-bottom: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
+  font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
 }
